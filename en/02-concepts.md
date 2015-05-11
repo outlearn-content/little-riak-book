@@ -79,6 +79,8 @@ This limitation changes how you model data. Relational normalization (organizing
 
     Examples: *Riak*, *Redis*, *Voldemort*
 
+<!-- @asset, "contentType" : "outlearn/prototype-feature", "text" : "{ \"multiple_choice\": \"Riak is a great choice if you need\", \"answers\" : [ \"flexible querying\", \"complicated datastructures.\", \"easy scaling.\" ], \"correct\" : 2 }"-->
+
 <!-- @section -->
 
 # Riak Components
@@ -119,7 +121,11 @@ Successive requests for `5124` will now return `Claire`.
 
 Addresses in Riakville are more than a house number, but also a street. There could be another 5124 on another street, so the way we can ensure a unique address is by requiring both, as in *5124 Main Street*.
 
-*Buckets* in Riak are analogous to street names: they provide logical [namespaces](http://en.wikipedia.org/wiki/Namespace) so that identical keys in different buckets will not conflict.
+*Buckets* in Riak are analogous to street names: they provide logical namespaces so that identical keys in different buckets will not conflict.
+
+<!-- @link, "url" : "http://en.wikipedia.org/wiki/Namespace", "task" : "For a refresher on namespaces, check out this Wikipedia article." -->
+
+
 
 For example, while Alice may live at *5122 Main Street*, there may be a gas station at *5122 Bagshot Row*.
 
@@ -264,6 +270,8 @@ But when values are distributed, *consistency* might not be guaranteed. In the m
 If consistency should not be compromised in a distributed database, we can choose to sacrifice *availability* instead. We may, for instance, decide to lock the entire database during a write, and simply refuse to serve requests until that value has been replicated to all relevant nodes. Clients have to wait while their results can be brought into a consistent state (ensuring all replicas will return the same value) or fail if the nodes have trouble communicating. For many high-traffic read/write use-cases, like an online shopping cart where even minor delays will cause people to just shop elsewhere, this is not an acceptable sacrifice.
 
 This tradeoff is known as Brewer's CAP theorem. CAP loosely states that you can have a C (consistent), A (available), or P (partition-tolerant) system, but you can only choose 2. Assuming your system is distributed, you're going to be partition-tolerant, meaning, that your network can tolerate packet loss. If a network partition occurs between nodes, your servers still run. So your only real choices are CP or AP. Riak 2.0 supports both modes.
+
+<!-- @asset, "contentType" : "outlearn/prototype-feature", "text" : "{ \"task\": \"Select two other databases that you are interested in and find out which of the following modes they support: CA, CP, and/or AP.\", \"deliverable\" : \"Write below the names of the databases you chose and the modes they support.\" }"-->
 
 <!-- A fourth concept not covered by the CAP theorem, latency, is especially important here. -->
 
