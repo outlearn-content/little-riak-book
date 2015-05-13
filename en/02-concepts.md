@@ -125,7 +125,6 @@ Addresses in Riakville are more than a house number, but also a street. There co
 
 <!-- @link, "url" : "http://en.wikipedia.org/wiki/Namespace", "task" : "For a refresher on namespaces, check out this Wikipedia article." -->
 
-<!-- @link, "url" : "http://nodejs.org", "task" : "Install Node.js for your operating system." -->
 
 
 
