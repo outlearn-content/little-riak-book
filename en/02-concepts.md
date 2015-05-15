@@ -123,7 +123,7 @@ Addresses in Riakville are more than a house number, but also a street. There co
 
 *Buckets* in Riak are analogous to street names: they provide logical namespaces so that identical keys in different buckets will not conflict.
 
-<!-- @link, "url" : "http://en.wikipedia.org/wiki/Namespace", "task" : "For a refresher on namespaces, check out this Wikipedia article." -->
+<!-- @link, "url" : "https://en.wikipedia.org/wiki/Namespace", "task" : "For a refresher on namespaces, check out this Wikipedia article." -->
 
 
 
