@@ -5,9 +5,8 @@ title : "Riak Concepts"
 description: "Ground learners in basic Riak concepts that come up again and again."
 homepage : "http://littleriakbook.com/"
 coverImage : "http://www.publicdomainpictures.net/pictures/110000/velka/server-network-cables.jpg"
+freshnessDate : 2014-08-22
 license : "CC Attribution-NonCommercial-ShareAlike 3.0"
-url : "http://coderoshi.com"
-twitter : "coderoshi"
 -->
 
 
