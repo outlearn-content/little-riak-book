@@ -272,9 +272,11 @@ If consistency should not be compromised in a distributed database, we can choos
 
 This tradeoff is known as Brewer's CAP theorem. CAP loosely states that you can have a C (consistent), A (available), or P (partition-tolerant) system, but you can only choose 2. Assuming your system is distributed, you're going to be partition-tolerant, meaning, that your network can tolerate packet loss. If a network partition occurs between nodes, your servers still run. So your only real choices are CP or AP. Riak 2.0 supports both modes.
 
-<!-- @link, "url" : "https://en.wikipedia.org/wiki/Namespace", "text" : "For a refresher on namespaces, check out this Wikipedia article." -->
+<!-- @link, "url" : "https://TEST.com", "text" : "For a refresher on namespaces, check out this Wikipedia article." -->
 
 <!-- @task "hasDeliverable" : true, "text" : "Select two other databases that you are interested in and find out which of the following modes they support: CA, CP, and/or AP. Write in the names of the databases you chose and the modes they support."-->
+
+<!-- @task, "text" : "Install the tools."-->
 
 <!-- A fourth concept not covered by the CAP theorem, latency, is especially important here. -->
 
