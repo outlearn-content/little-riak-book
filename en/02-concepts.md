@@ -79,7 +79,18 @@ This limitation changes how you model data. Relational normalization (organizing
 
     Examples: *Riak*, *Redis*, *Voldemort*
 
-<!-- @asset, "contentType" : "outlearn/prototype-feature", "text" : "{ \"multiple_choice\": \"Riak is a great choice if you need\", \"answers\" : [ \"flexible querying\", \"complicated datastructures.\", \"easy scaling.\" ], \"correct\" : 2 }"-->
+<!-- @multiple_choice -->
+
+Riak is a great choice if you need which of the following features?
+
+- [ ] flexible querying
+- [ ] complicated datastructures
+- [X] easy scaling
+
+Riak is not a general purpose database, it is a natively-scalable key/value store.
+
+<!-- @end -->
+
 
 <!-- @section -->
 
