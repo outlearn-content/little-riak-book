@@ -79,7 +79,7 @@ This limitation changes how you model data. Relational normalization (organizing
 
     Examples: *Riak*, *Redis*, *Voldemort*
 
-<!-- @multiple_choice -->
+<!-- @multipleChoice -->
 
 Riak is a great choice if you need which of the following features?
 
