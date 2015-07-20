@@ -1,12 +1,15 @@
 <!--
-name: riak-concepts
-version : "0.1"
-title : "Riak Concepts"
-description: "Ground learners in basic Riak concepts that come up again and again."
-homepage : "http://littleriakbook.com/"
-coverImage : "http://www.publicdomainpictures.net/pictures/110000/velka/server-network-cables.jpg"
-freshnessDate : 2014-08-22
-license : "CC Attribution-NonCommercial-ShareAlike 3.0"
+{
+"name" : "riak-concepts",
+"version" : "0.1",
+"title" : "Riak Concepts",
+"description" : "Ground learners in basic Riak concepts that come up again and again.",
+"homepage" : "http://littleriakbook.com/",
+"canonicalSource" : "http://littleriakbook.com/",
+"coverImage" : "http://www.publicdomainpictures.net/pictures/110000/velka/server-network-cables.jpg",
+"freshnessDate" : 2014-08-22,
+"license" : "CC BY-NC-SA 3.0"
+}
 -->
 
 
